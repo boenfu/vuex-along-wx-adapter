@@ -1,4 +1,10 @@
-## simple wx adapter for [vuex-along]( https://github.com/boenfu/vuex-along )
+## simple wx adapter for [vuex-along](https://github.com/boenfu/vuex-along)
+
+```shell
+npm install vuex-along-wx-adapter --save
+# or
+yarn add vuex-along-wx-adapter
+```
 
 ```javascript
 import createVuexAlong from "vuex-along";
