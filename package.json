@@ -1,0 +1,36 @@
+{
+  "name": "vuex-along-wx-adapter",
+  "version": "0.1.0",
+  "description": "Automatically restore vuex state after refreshing the page",
+  "author": "boenfu",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "private": false,
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "vuex",
+    "wx"
+  ],
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@types/weixin-app": "^2.2.28",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "prepublish": "yarn && yarn build",
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boenfu/vuex-along-wx-adapter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/boenfu/vuex-along-wx-adapter/issues"
+  },
+  "homepage": "https://github.com/boenfu/vuex-along-wx-adapter#readme"
+}
