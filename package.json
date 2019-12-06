@@ -21,7 +21,7 @@
     "typescript": "^3.7.2"
   },
   "scripts": {
-    "prepublish": "yarn && yarn build",
+    "prepublish": "yarn build",
     "build": "tsc"
   },
   "dependencies": {},
